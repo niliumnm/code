@@ -1,0 +1,68 @@
+server:
+  port: 8088
+
+mycar:
+  brand: "BYD"
+  price: 100000
+
+person:
+  userName: 张三
+  boss: true
+  birth: 2019/12/9
+  age: 18
+
+  # String[] interests 行内和分行写法
+#  interests: [篮球,足球]
+  interests:
+    - 篮球
+    - 足球
+
+  # List<String>animal 行内和分行都可
+  animal: [阿猫,阿狗]
+
+  #Map<String, Object> score; 括号里不用空格，因为是JSON写法
+  #score: {english:80,math:90 }
+  score:
+    english: 80
+    math: 90
+
+  #Set<Double> salary; 数组和分行都行
+  salary: [90,100,100]
+
+  #private Pet pet;
+  pet:
+    name: 狗
+    age: 18
+
+  #Map<String, List<Pet>> allPet
+  allPet:
+    healthy:
+      - {name: "病狗1\n",age: 11}
+      - name: 病猫
+        age: 11
+      - name: 病狗2
+        age: 6
+    sick:
+      - {name: 狗1,age: 11}
+      - {name: 狗1,age: 11}
+management:
+  endpoints:
+    # 默认开启全部端点
+    enabled-by-default: false
+    # 以Web方式暴露全部端点
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
+    info:
+      enabled: true
+    beans:
+      enabled: true
+    metrics:
+      enabled: true
+spring:
+  profiles:
+    active: test

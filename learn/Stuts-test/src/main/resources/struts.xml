@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <!-- 允许动态方法调用-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+    <constant name="struts.devMode" value="true"></constant>
+
+    <package name="xxx" namespace="/test" extends="struts-default">
+        <action name="check" class="com.cdut.stutstest.Hello">
+            <!--如果返回的是Success，就弹出这个页面-->
+            <result name="success">/success.jsp</result>
+        </action>
+    </package>
+
+    <!--strict-method-invocation="false"  没用-->
+    <package name="Login" namespace="/log" extends="struts-default" >
+
+        <!--这里就不需要 method="normLogin"了 -->
+        <action name="login-*" class="com.cdut.stutstest.check" method="{1}">
+            <result name="NormSuccess">/norm-login.jsp</result>
+            <result name="AdminSuccess">/admin-login.jsp</result>
+            <allowed-methods>adminLogin,normLogin</allowed-methods>
+        </action>
+    </package>
+
+
+</struts>

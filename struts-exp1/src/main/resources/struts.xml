@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+<!--    <package name="login" namespace="/" extends="struts-default">-->
+<!--        <action name="login-static" class="com.cdut.controller.LoginController" method="login">-->
+<!--            &lt;!&ndash;如果返回的是Success，就弹出这个页面&ndash;&gt;-->
+<!--            <result name="success">/login/success.jsp</result>-->
+<!--            <result name="error">/login/error.jsp</result>-->
+<!--        </action>-->
+<!--        <action name="login" class="com.cdut.controller.LoginController">-->
+<!--            <result name="NormSuccess">/login/norm-login.jsp</result>-->
+<!--            <result name="AdminSuccess">/login/admin-login.jsp</result>-->
+<!--            <allowed-methods>adminLogin,normLogin</allowed-methods>-->
+<!--        </action>-->
+<!--        <action name="data" class="com.cdut.controller.DataController">-->
+<!--            <result name="success">/login/data.jsp</result>-->
+<!--        </action>-->
+<!--    </package>-->
+    <package name="validate" namespace="/" extends="struts-default" >
+        <action name="validate"   class="com.cdut.controller.ValidateController" method="login">
+            <result name="success">/login/success.jsp</result>
+            <result name="input">/login/val.jsp</result>
+            <result name="error">/login/val.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,5 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  tools.cpp
+D:\Code\learn\CVLearn\tools.cpp(189,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Code\learn\CVLearn\tools.cpp(189,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  FillPoly.vcxproj -> D:\Code\learn\CVLearn\Debug\FillPoly.exe

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+    <constant name="struts.ui.theme" value="simple"></constant>
+    <package name="default" strict-method-invocation="false"  namespace="/exe" extends="struts-default">
+        
+        <action name="register-*" class="action.testAction" method="{1}">
+            <result name="login">/login.jsp</result>
+            <result name="register">/register.jsp</result>
+        </action>
+        <action name="hello" class="action.testAction" method="hello">
+            <result name="success">/error.jsp</result>
+        </action>
+    </package>
+    <package name="test" namespace="/" extends="struts-default">
+        <interceptors>
+            <interceptor name="time" class="interceptor.timeInterceptor"></interceptor>
+            <interceptor name="loginInterceptor" class="interceptor.loginInterceptor"></interceptor>
+            <interceptor-stack name="interceptorStack">
+                <interceptor-ref name="time"></interceptor-ref>
+                <interceptor-ref name="loginInterceptor"></interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+        <global-results>
+            <result name="LOGIN2">/error.jsp</result>
+        </global-results>
+
+        <action name="tag" class="action.tagAction" method="login">
+            <result name="success">/tags.jsp</result>
+            <interceptor-ref name="interceptorStack"></interceptor-ref>
+        </action>
+        <action name="valLog" class="action.ValAction" method="login">
+            <result name="success">/val.jsp</result>
+            <result name="input">/val.jsp</result>
+            <interceptor-ref name="interceptorStack"></interceptor-ref>
+        </action>
+        <action name="valReg"  class="action.ValAction" method="register">
+            <result name="success">/val.jsp</result>
+            <result name="input">/val.jsp</result>
+        </action>
+        <action name="upload" class="action.FileAction" method="upload">
+            <result name="success">/upload.jsp</result>
+        </action>
+    </package>
+
+</struts>

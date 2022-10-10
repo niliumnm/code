@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/enable"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="开启"></Button>
+        <Button
+            android:id="@+id/disable"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="禁用"></Button>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/test"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="功能"></Button>
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffeeff"></TextView>
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/apple"
+        android:scaleType="centerInside">
+    </ImageView>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/date"
+        android:scaleType="centerInside"></ImageButton>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/date"
+        android:text="日历"
+        android:textColor="#000000"
+        android:drawablePadding="15dp"
+        android:background="#fffff"
+        >
+    </Button>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql:///learn-test?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+      username: root
+      password: 123456
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fced586b-42e6-4c9a-9f35-7c102c843828" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../Program Files/Binary/apache-maven-3.8.6/maven-repo/com/baomidou/mybatis-plus-core/3.4.2/mybatis-plus-core-3.4.2-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../Program Files/Binary/apache-maven-3.8.6/maven-repo/com/baomidou/mybatis-plus-core/3.4.2/mybatis-plus-core-3.4.2-sources.jar!/com/baomidou/mybatisplus/core/metadata/IPage.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Binary\apache-maven-3.8.6\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Program Files/Binary/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="D:\Program Files\Binary\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2FKTM3em4RDUcHbCVEkjy10rtNW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;ff4c88&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/Spring-Learn/SSMP/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;892dbee8130fb94af2dff784cf0e6eea&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Spring-Learn\SSMP\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SsmpApplication">
+    <configuration name="BookDaoTestCase.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSMP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cdut.ssmp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cdut.ssmp.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.cdut.ssmp.dao.BookDaoTestCase" />
+      <option name="METHOD_NAME" value="testGetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-Learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cdut.springlearn.SpringLearnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SsmpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SSMP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cdut.ssmp.SsmpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookDaoTestCase.testGetById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fced586b-42e6-4c9a-9f35-7c102c843828" name="Changes" comment="" />
+      <created>1664239733285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664239733285</updated>
+      <workItem from="1664239734552" duration="4144000" />
+      <workItem from="1664253414214" duration="449000" />
+      <workItem from="1664253873629" duration="16998000" />
+      <workItem from="1664329107831" duration="596000" />
+      <workItem from="1664681726746" duration="667000" />
+      <workItem from="1664804138511" duration="2849000" />
+      <workItem from="1664878206766" duration="52000" />
+      <workItem from="1665116339221" duration="6377000" />
+      <workItem from="1665218872682" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
