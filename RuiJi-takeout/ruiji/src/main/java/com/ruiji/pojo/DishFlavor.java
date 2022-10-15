@@ -1,20 +1,18 @@
 package com.ruiji.pojo;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
+
 import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
 
 /**
- * 员工信息
- * @TableName employee
+ * 菜品口味关系表
+ * @TableName dish_flavor
  */
-@TableName(value ="employee")
+@TableName(value ="dish_flavor")
 @Data
-public class Employee implements Serializable {
+public class DishFlavor implements Serializable {
     /**
      * 主键
      */
@@ -22,39 +20,19 @@ public class Employee implements Serializable {
     private Long id;
 
     /**
-     * 姓名
+     * 菜品
+     */
+    private Long dishId;
+
+    /**
+     * 口味名称
      */
     private String name;
 
     /**
-     * 用户名
+     * 口味数据list
      */
-    private String username;
-
-    /**
-     * 密码
-     */
-    private String password;
-
-    /**
-     * 手机号
-     */
-    private String phone;
-
-    /**
-     * 性别
-     */
-    private String sex;
-
-    /**
-     * 身份证号
-     */
-    private String idNumber;
-
-    /**
-     * 状态 0:禁用，1:正常
-     */
-    private Integer status;
+    private String value;
 
     /**
      * 创建时间
@@ -74,12 +52,16 @@ public class Employee implements Serializable {
     @TableField(fill = FieldFill.INSERT)
     private Long createUser;
 
-
     /**
      * 修改人
      */
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Long updateUser;
+
+    /**
+     * 是否删除
+     */
+    private Integer isDeleted;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;

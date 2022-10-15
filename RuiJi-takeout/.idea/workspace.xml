@@ -4,7 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="511c1167-9cfa-46f1-9070-2e6b979ad02c" name="Changes" comment="" />
+    <list default="true" id="511c1167-9cfa-46f1-9070-2e6b979ad02c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/common/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/config/MybatisPlusPageInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/controller/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/fliter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/pojo/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/pojo/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/pojo/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/service/DishFlavorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/utils/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/utils/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/utils/MyMetaObjectHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/resources/mapper/DishFlavorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/resources/mapper/DishMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/src/main/resources/mapper/SetmealMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/common/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/common/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/config/MybatisPlusPageInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/controller/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/controller/DishController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/dto/DishDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/fliter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/mapper/DishFlavorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/mapper/DishMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/mapper/SetmealMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/pojo/Dish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/pojo/DishFlavor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/pojo/Setmeal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/service/DishFlavorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/service/DishService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/service/SetmealService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/service/impl/DishFlavorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/service/impl/DishServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/service/impl/SetmealServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/utils/BaseContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/utils/JacksonObjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/utils/MyMetaObjectHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/mapper/DishFlavorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/mapper/DishMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiji/target/classes/mapper/SetmealMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/config/WebMvcConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/config/WebMvcConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/fliter/LoginCheckFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/pojo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/src/main/java/com/ruiji/pojo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/src/test/java/com/ruiji/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/src/test/java/com/ruiji/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/config/WebMvcConfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/config/WebMvcConfigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/fliter/LoginCheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/pojo/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji/target/classes/com/ruiji/pojo/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../epidemic" beforeDir="false" afterPath="$PROJECT_DIR$/../epidemic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-boot-2.1.0.RELEASE" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-2.1.0.RELEASE" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +94,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,6 +111,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2FteZdDlSLXstAh8aMAvNRpNu4h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +129,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-18",
-    "last_opened_file_path": "D:/Code/RuiJi-takeout/ruiji/src/main/java/com/ruiji/utils",
+    "last_opened_file_path": "D:/Code/RuiJi-takeout/ruiji/src/main/java/com/ruiji/dto",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -61,11 +145,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\RuiJi-takeout\ruiji\src\main\java\com\ruiji\dto" />
+      <recent name="D:\Code\RuiJi-takeout\ruiji\src\main\resources\backend" />
       <recent name="D:\Code\RuiJi-takeout\ruiji\src\main\java\com\ruiji\utils" />
       <recent name="D:\Code\RuiJi-takeout\ruiji\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.RuijiApplication">
+    <configuration name="test.testData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ruiji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruiji.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ruiji" />
+      <option name="MAIN_CLASS_NAME" value="com.ruiji.test" />
+      <option name="METHOD_NAME" value="testData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RuijiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
@@ -85,6 +187,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RuijiApplication" />
+        <item itemvalue="JUnit.test.testData" />
       </list>
     </recent_temporary>
   </component>
@@ -102,12 +205,30 @@
       <workItem from="1665326785255" duration="882000" />
       <workItem from="1665362098670" duration="2305000" />
       <workItem from="1665389641877" duration="472000" />
-      <workItem from="1665390122021" duration="11240000" />
+      <workItem from="1665390122021" duration="12646000" />
+      <workItem from="1665446878272" duration="19178000" />
+      <workItem from="1665490882922" duration="123000" />
+      <workItem from="1665491023816" duration="2866000" />
+      <workItem from="1665537110898" duration="9702000" />
+      <workItem from="1665559836228" duration="12844000" />
+      <workItem from="1665619680662" duration="9818000" />
+      <workItem from="1665798868760" duration="7981000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
